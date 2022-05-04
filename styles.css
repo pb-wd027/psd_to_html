@@ -19,7 +19,14 @@
     color: black;
   }
   .img-story{
+
     padding-left: 70px;
+  }
+
+    .img-story-expertise{
+    width: 235px;
+    height: 229px;
+
   }
   .flex-story{
     display: flex;
@@ -28,6 +35,9 @@
   }
   .flex-itst{
     padding-left: 110px;
+  }
+    .flex-itst-expertise{
+    padding-left: 70px;
   }
   .btn{
     color: #00e0d0;
