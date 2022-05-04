@@ -23,6 +23,97 @@
     color: lightsalmon;
   }
   footer {
-    color: blueviolet;
+    background-image: url("/public/images/bgk-footer.png");
+    background-color: #cccccc; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0rem 3rem 0rem
+
   }
+  footer .big-flex-container {
+    display: flex;
+    
+  }
+  footer .tajam {
+   width: 33%;
+   
+   }
+  footer .tajam-title {
+    display: flex;
+   }
+  footer .tajam svg{
+     margin-top: -15px;
+   }
+  footer .studio{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  
+  }
+  footer .adress{
+    display: flex;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  footer .adress svg {
+    margin-right: 6px;
+    width: 25px;
+  }
+  footer .phone{
+    display: flex;
+   }
+  footer .phone svg {
+    margin-right: 6px;
+    width: 25px;
+   }
+  footer .touch{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+    }
+
+  footer form{
+  display: flex;
+  margin: 1rem 0rem 1rem 0rem;
+  }
+
+
+ footer input {
+  background: transparent;
+  border: 1px solid #ffffff;
+  width: 211px;
+  height: 45px;
+  text-align: center;
+  }
+
+footer button {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: 10px;
+  width: 70px;
+  height: 49px;
+  border: 1px solid #ffffff;
+  }
+
+footer ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  gap: 5px;
+  }
+
+footer  .small-flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+footer .small-flex-container a:link{
+    color: white;
+    text-decoration: none;
+  }
+footer .impressum-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-right: 20px;
+}
   
