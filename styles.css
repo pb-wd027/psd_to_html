@@ -1,6 +1,11 @@
 * {
     margin: 0;
   }
+  body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
   nav {
     color: red;
   }
@@ -11,13 +16,61 @@
     color: blue;
   }
   #our_story-section {
-    color: green;
+    color: black;
+  }
+  .img-story{
+    width: 235px;
+    height: 229px;
+  }
+  .flex-story{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flex-itst{
+    padding-left: 70px;
+  }
+  .btn{
+    color: #00e0d0;
+    font-size: 16px;
+    background-color: white;
+    border-color: #00e0d0;
+    font-weight: 16px;
+  }
+  h2{
+    size: 22px;
   }
   #watch-section {
     color: darkred;
   }
   #expertise-section {
-    color: fuchsia;
+    color: black;
+    text-align: center;
+  }
+  .container{
+    max-width: 960px;
+    width: 100%;
+  }
+  .flex-expertise{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-itex{
+    max-width: calc(33% - 40px);
+    padding: 20px;
+  }
+  .icon{
+    height: auto;
+    width: 20px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+  hr{
+    width: 40px;
   }
   #team-section {
     color: yellowgreen;
